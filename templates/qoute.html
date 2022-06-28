@@ -1,0 +1,65 @@
+{% extends "base.html "%}
+{% block content %}
+        
+
+<div class="bs bg-dark">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6  text-center pt-3">
+          <h3 class="text-light">Best Packing And Shifting</h3>
+          <h3 class="text-light">House Shifting</h3>
+          <h5 class="text-light">Get Your FREE Quote Today !</h5>
+                <form method="" action="">
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="number" class="form-control" id="phone" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="text" class="form-control" id="present_Address" placeholder="Enter Your Present Address">
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="text" class="form-control" id="destination_Address" placeholder="Enter Your Destination Address">
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="text" class="form-control" id="goodsDetails" placeholder="Type Details Your Goods">
+                    </div>
+                    <div class="form-group ">
+                      
+                      <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" id="Present_floor" placeholder="Your Present Home floor">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" id="Destination_floor" placeholder="Your Destination Home floor">
+                          </div>
+                        </div>
+                  </div>
+
+                    <div class="form-group ">
+                        <!-- <label for="usr">Name:</label> -->
+                        <input type="date" class="form-control" id="pickupdate" >
+                    </div>
+                    
+                    <input class="btn btn-success  btn-lg btn-block" type="submit" onclick="gotowhatsapp()">
+                </form>
+        </div>
+        
+      <div class="col  bg-dark">
+          <img src="/static/img/form_image.png" alt="" srcset="">
+      </div>
+  </div>
+</div>
+</div>
+   
+{% endblock %}
